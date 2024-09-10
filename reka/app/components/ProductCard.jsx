@@ -5,7 +5,7 @@ import favorite from "../public/favorite.svg";
 import cart from "../public/cart.svg";
 
 const ProductCard = ( props ) => {
-  const { title, images, category, price } = props;
+  const { title, thumbnail, category, price } = props;
   return (
     <div className="flex flex-col max-h-[130rem] cursor-pointer max-w-80 hover:-translate-y-1 hover:scale-105 duration-300 bg-white border border-slate-200 shadow shadow-slate-950/5 rounded-[4px] overflow-hidden">
       <div className="flex align-center p-2">
@@ -16,7 +16,7 @@ const ProductCard = ( props ) => {
       </div>
 
       <Link href="" className="flex justify-center">
-        <Image className="object-contain  h-32" src={images} alt="" />
+        <img className="object-cover " src={thumbnail} alt="" />
       </Link>
 
       <div className="flex-1 flex flex-col p-2">

@@ -28,7 +28,7 @@ const Header = () => {
             </Link>
           </div>
         </nav>
-        <hr className="border mb-8 flex min-w-[100vw] mx-auto" />
+        <hr className="border  flex min-w-[100vw] mx-auto" />
       </header>
     </>
   );
