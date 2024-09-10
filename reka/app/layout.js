@@ -1,10 +1,11 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "./components/Header";
 
 
 export const metadata = {
   title: "Reka online market",
-  description: "Fresh food delivered to Your Doo step",
+  description: "Fresh food delivered to Your Door step",
   
 };
 
