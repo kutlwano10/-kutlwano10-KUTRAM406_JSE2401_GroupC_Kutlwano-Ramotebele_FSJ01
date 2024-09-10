@@ -11,12 +11,12 @@ const ProductCard = ({ product }) => {
       <div className="flex align-center p-2">
         <button className="relative left-[85%]">
           {/*  */}
-          <Image src={favorite}/>
+          <Image src={favorite} alt=""/>
         </button>
       </div>
 
       <Link href="" className="flex justify-center">
-        <Image className="object-contain  h-32" src={product.image} alt="Course 01" />
+        <Image className="object-contain  h-32" src={product.image} alt="" />
       </Link>
 
       <div className="flex-1 flex flex-col p-2">

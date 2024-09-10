@@ -11,7 +11,7 @@ const Header = () => {
       <header className="w-full fixed top-0 bg-white  z-10">
         <nav className="flex justify-between items-center px-[8%] py-3 md:py-6">
           <Link href="">
-            <Image src={menu} />
+            <Image src={menu} alt="" />
           </Link>
           <Link href="/" className=" text-[#87e64b] font-extrabold text-4xl md:text-6xl">
             Reka.
@@ -20,11 +20,11 @@ const Header = () => {
           <div className="navbar-left flex items-center gap-4">
             {/* cart */}
             <Link  href="" className="hidden md:block">
-              <Image src={cart} />
+              <Image src={cart} alt="" />
             </Link>
             {/* Login */}
             <Link href="">
-              <Image src={profile} />
+              <Image src={profile} alt="" />
             </Link>
           </div>
         </nav>
