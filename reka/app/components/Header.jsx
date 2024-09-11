@@ -8,7 +8,7 @@ import menu from "../public/menu.svg";
 const Header = () => {
   return (
     <>
-      <header className="w-full fixed top-0 bg-white  z-10">
+      <header className="w-full fixed top-0 bg-white shadow-md z-10">
         <nav className="flex justify-between items-center px-[8%] py-3 md:py-6">
           <Link href="">
             <Image src={menu} alt="" />
@@ -28,7 +28,7 @@ const Header = () => {
             </Link>
           </div>
         </nav>
-        <hr className="border border-[#87e64b]  min-w-[100vw] mx-auto" />
+        {/* <hr className="border   min-w-[100vw] mx-auto" /> */}
       </header>
     </>
   );
